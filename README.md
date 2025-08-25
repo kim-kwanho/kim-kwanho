@@ -1,5 +1,5 @@
 # KIM KWAN HO 👋
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkim-kwanho&count_bg=%233DB7C8&title_bg=%230DA1EB&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)
+
 
 ![Kwanho's GitHub stats](https://github-readme-stats.vercel.app/api?username=kim-kwanho&show_icons=true&theme=tokyonight)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=racingcar)](https://solved.ac/racingcar/)
