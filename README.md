@@ -1,6 +1,6 @@
 <div align="center">
 
-# KIM KWAN HO 👋
+# KIM KWAN HO 👋 20233122 김관호
 
 **알고리즘·임베디드(C, Python, Arduino)** 와 **웹(JavaScript)** 프로젝트를 함께 다룹니다.
 
