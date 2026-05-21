@@ -6,32 +6,20 @@
 
 <br/>
 
-<table align="center">
-  <tr>
-    <td valign="top" align="center">
-      <a href="https://leetcode.com/u/kim-kwanho/">
-        <img src="https://leetcard.jacoblin.cool/kim-kwanho?theme=light,dark&width=320" alt="LeetCode Stats"/>
-      </a>
-    </td>
-    <td valign="top" align="center">
-      <a href="https://leetcode.com/u/kim-kwanho/">
-        <img src="https://leetcard.jacoblin.cool/kim-kwanho?ext=heatmap&theme=light,dark&width=320" alt="LeetCode Activity Heatmap"/>
-      </a>
-    </td>
-    <td valign="top" align="center">
-      <a href="https://leetcode.com/u/kim-kwanho/">
-        <img src="https://leetcard.jacoblin.cool/kim-kwanho?ext=activity&theme=light,dark&width=320" alt="LeetCode Recent Activity"/>
-      </a>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
 <p align="center">
   <img height="180" alt="GitHub Stats" src="https://readme-stats-fast.vercel.app/api?username=kim-kwanho&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="180" alt="Top Languages" src="https://readme-stats-fast.vercel.app/api/top-langs/?username=kim-kwanho&layout=compact&theme=tokyonight&hide_border=true&exclude_repo=kim-kwanho&lang_count=8" />
+  <a href="https://leetcode.com/u/kim-kwanho/">
+    <img height="180" alt="LeetCode Stats" src="https://leetcard.jacoblin.cool/kim-kwanho?theme=dark&width=415" />
+  </a>
 </p>
+
+<p align="center">
+  <img height="180" alt="Top Languages" src="https://readme-stats-fast.vercel.app/api/top-langs/?username=kim-kwanho&layout=compact&theme=tokyonight&hide_border=true&exclude_repo=kim-kwanho&lang_count=8" />
+  <a href="https://leetcode.com/u/kim-kwanho/">
+    <img height="180" alt="LeetCode Heatmap" src="https://leetcard.jacoblin.cool/kim-kwanho?ext=heatmap&theme=dark&width=415" />
+  </a>
+</p>
+
 <img src="https://streak-stats.demolab.com/?user=kim-kwanho&theme=tokyonight&hide_border=true" alt="GitHub streak" width="750" />
 
 <br/>
