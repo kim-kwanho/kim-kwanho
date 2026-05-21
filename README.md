@@ -6,23 +6,25 @@
 
 <br/>
 
-<p align="center">
-  <a href="https://leetcode.com/u/kim-kwanho/">
-    <img src="https://leetcard.jacoblin.cool/kim-kwanho?theme=light,dark" alt="LeetCode Stats"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://leetcode.com/u/kim-kwanho/">
-    <img src="https://leetcard.jacoblin.cool/kim-kwanho?ext=heatmap&theme=light,dark" alt="LeetCode Activity Heatmap"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://leetcode.com/u/kim-kwanho/">
-    <img src="https://leetcard.jacoblin.cool/kim-kwanho?ext=activity&theme=light,dark" alt="LeetCode Recent Activity"/>
-  </a>
-</p>
+<table align="center">
+  <tr>
+    <td valign="top" align="center">
+      <a href="https://leetcode.com/u/kim-kwanho/">
+        <img src="https://leetcard.jacoblin.cool/kim-kwanho?theme=light,dark&width=320" alt="LeetCode Stats"/>
+      </a>
+    </td>
+    <td valign="top" align="center">
+      <a href="https://leetcode.com/u/kim-kwanho/">
+        <img src="https://leetcard.jacoblin.cool/kim-kwanho?ext=heatmap&theme=light,dark&width=320" alt="LeetCode Activity Heatmap"/>
+      </a>
+    </td>
+    <td valign="top" align="center">
+      <a href="https://leetcode.com/u/kim-kwanho/">
+        <img src="https://leetcard.jacoblin.cool/kim-kwanho?ext=activity&theme=light,dark&width=320" alt="LeetCode Recent Activity"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
