@@ -6,15 +6,30 @@
 
 <br/>
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=racingcar)](https://solved.ac/racingcar/)
+<p align="center">
+  <a href="https://leetcode.com/u/kim-kwanho/">
+    <img src="https://leetcard.jacoblin.cool/kim-kwanho?theme=light,dark" alt="LeetCode Stats"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/kim-kwanho/">
+    <img src="https://leetcard.jacoblin.cool/kim-kwanho?ext=heatmap&theme=light,dark" alt="LeetCode Activity Heatmap"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/kim-kwanho/">
+    <img src="https://leetcard.jacoblin.cool/kim-kwanho?ext=activity&theme=light,dark" alt="LeetCode Recent Activity"/>
+  </a>
+</p>
 
 <br/>
 
 <p align="center">
-  <img height="180" alt="GitHub stats" src="https://readme-stats-fast.vercel.app/api?username=kim-kwanho&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="180" alt="Top languages" src="https://readme-stats-fast.vercel.app/api/top-langs/?username=kim-kwanho&layout=compact&theme=tokyonight&hide_border=true&exclude_repo=kim-kwanho&langs_count=8" />
+  <img height="180" alt="GitHub Stats" src="https://readme-stats-fast.vercel.app/api?username=kim-kwanho&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="180" alt="Top Languages" src="https://readme-stats-fast.vercel.app/api/top-langs/?username=kim-kwanho&layout=compact&theme=tokyonight&hide_border=true&exclude_repo=kim-kwanho&lang_count=8" />
 </p>
-
 <img src="https://streak-stats.demolab.com/?user=kim-kwanho&theme=tokyonight&hide_border=true" alt="GitHub streak" width="750" />
 
 <br/>
