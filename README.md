@@ -111,10 +111,8 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 
 </div>
 
-<br/>
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=90&section=footer&text=Thanks%20for%20visiting!%20%E2%9C%A8&fontSize=22&fontColor=fff&animation=twinkling" width="100%" alt="Footer"/>
+<sub>✨ Thanks for visiting!</sub>
 
 </div>
