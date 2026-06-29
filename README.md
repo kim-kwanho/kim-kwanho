@@ -99,7 +99,7 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 
 행사별 **`event.json`** 설정만으로 배포하는 **인생네컷 포토부스 키오스크** (촬영 · 프레임 · QR · Admin)
 
-🌐 [Live](https://photobooth.vercel.app) · 📂 [Repo](https://github.com/kim-kwanho/event-photobooth)
+🌐 [Live](https://photobooth-kwanho-kims-projects-ab5d8261.vercel.app) · 📂 [Repo](https://github.com/kim-kwanho/event-photobooth)
 
 </td>
   </tr>
