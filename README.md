@@ -102,12 +102,7 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 
 <div align="center">
 
-<img width="100%" alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=kim-kwanho&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=6366F1&fire=6366F1&currStreakNum=6366F1&sideNums=6366F1&currStreakLabel=6366F1&sideLabels=6366F1" />
-
-<br/>
-
 <img height="180" alt="GitHub Stats" src="https://readme-stats-fast.vercel.app/api?username=kim-kwanho&show_icons=true&theme=tokyonight&hide_border=true&icon_color=6366F1&title_color=6366F1&text_color=c9d1d9" />
-<img height="180" alt="Top Languages" src="https://readme-stats-fast.vercel.app/api/top-langs/?username=kim-kwanho&layout=compact&theme=tokyonight&hide_border=true&exclude_repo=kim-kwanho&lang_count=5&title_color=6366F1&text_color=c9d1d9" />
 
 </div>
 
