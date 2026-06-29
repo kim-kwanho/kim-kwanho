@@ -91,14 +91,15 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 </td>
     <td width="50%" valign="top">
 
-### 🎄 [christmas_blessing](https://github.com/kim-kwanho/christmas_blessing)
+### 📸 [event-photobooth](https://github.com/kim-kwanho/event-photobooth)
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
 
-크리스마스 **인터랙티브** 웹 경험
+행사별 **`event.json`** 설정만으로 배포하는 **인생네컷 포토부스 키오스크** (촬영 · 프레임 · QR · Admin)
 
-🌐 [Demo](https://christmas-liard-eight.vercel.app) · 📂 [Repo](https://github.com/kim-kwanho/christmas_blessing)
+📂 [Repo](https://github.com/kim-kwanho/event-photobooth)
 
 </td>
   </tr>
