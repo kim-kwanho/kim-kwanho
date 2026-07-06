@@ -109,6 +109,10 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 
 ### Algorithms / C++
 
+<table>
+  <tr>
+    <td colspan="2" valign="top">
+
 ### 🎬 [movie--recommender](https://github.com/kim-kwanho/movie--recommender)
 
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
@@ -118,6 +122,10 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 유사 사용자 기반 **협업 필터링(KNN)** 영화 추천 CLI — OOP 상속 · CSV 영속성 · 통계/Export
 
 📂 [Repo](https://github.com/kim-kwanho/movie--recommender)
+
+</td>
+  </tr>
+</table>
 
 <br/>
 
