@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&width=620&lines=%EC%88%AD%EC%8B%A4%EB%8C%80%ED%95%99%EA%B5%90+%C2%B7+%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98+%C2%B7+Next.js;TypeScript+%EC%9B%B9+%EC%84%9C%EB%B9%84%EC%8A%A4+%EA%B0%9C%EB%B0%9C;ROS+2+%C2%B7+Nav2+%C2%B7+AMR+%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89;OOP+%EB%8F%84%EB%A9%94%EC%9D%B8+%EB%AA%A8%EB%8D%B8%EB%A7%81+%C2%B7+%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C" alt="Typing intro"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&width=620&lines=%EC%88%AD%EC%8B%A4%EB%8C%80%ED%95%99%EA%B5%90+%C2%B7+%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98+%C2%B7+Next.js;TypeScript+%EC%9B%B9+%EC%84%9C%EB%B9%84%EC%8A%A4+%EA%B0%9C%EB%B0%9C;ROS+2+%C2%B7+Nav2+%C2%B7+AMR+%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89;C%2B%2B+OOP+%C2%B7+%ED%98%91%EC%97%85+%ED%95%84%ED%84%B0%EB%A7%81+%EC%B6%94%EC%B2%9C" alt="Typing intro"/>
 
 <br/>
 
@@ -22,14 +22,14 @@
 ## 👋 About
 
 > 웹 서비스와 **OOP 도메인 모델링**을 중심으로 프로젝트를 만들고 있습니다.  
-> Next.js · TypeScript로 실서비스를 배포하고, **ROS 2 · Nav2 · YOLO** 기반 AMR 자율주행도 함께 다룹니다.
+> Next.js · TypeScript로 실서비스를 배포하고, **C++ 협업 필터링**과 **ROS 2 · Nav2 · YOLO** 기반 AMR 자율주행도 함께 다룹니다.
 
 <br/>
 
 ## 🛠 Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,py,c,js,html,css,arduino,docker,git,vscode,vercel,supabase&perline=7&theme=dark" alt="Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,py,c,cpp,js,html,css,arduino,docker,git,vscode,vercel,supabase&perline=7&theme=dark" alt="Tech Stack"/>
 </div>
 
 <p align="center">
@@ -104,6 +104,20 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 </td>
   </tr>
 </table>
+
+<br/>
+
+### Algorithms / C++
+
+### 🎬 [movie--recommender](https://github.com/kim-kwanho/movie--recommender)
+
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/STL-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Make-427819?style=flat-square&logo=gnu&logoColor=white"/>
+
+유사 사용자 기반 **협업 필터링(KNN)** 영화 추천 CLI — OOP 상속 · CSV 영속성 · 통계/Export
+
+📂 [Repo](https://github.com/kim-kwanho/movie--recommender)
 
 <br/>
 
