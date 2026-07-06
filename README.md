@@ -44,9 +44,14 @@
 
 ## 🚀 Projects
 
+<table>
+  <tr>
+    <td colspan="2" valign="top">
+
 ### Web / Full-stack
 
-<table>
+</td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
 
@@ -103,13 +108,13 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 
 </td>
   </tr>
-</table>
-
-<br/>
+  <tr>
+    <td colspan="2" valign="top">
 
 ### Algorithms / C++
 
-<table>
+</td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
 
@@ -126,13 +131,13 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 </td>
     <td width="50%" valign="top"></td>
   </tr>
-</table>
-
-<br/>
+  <tr>
+    <td colspan="2" valign="top">
 
 ### Robotics / ROS 2
 
-<table>
+</td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
 
