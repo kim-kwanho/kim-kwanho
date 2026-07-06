@@ -111,7 +111,7 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 
 <table>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
 
 ### 🎬 [movie--recommender](https://github.com/kim-kwanho/movie--recommender)
 
@@ -124,6 +124,7 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 📂 [Repo](https://github.com/kim-kwanho/movie--recommender)
 
 </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
