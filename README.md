@@ -102,7 +102,7 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
 
-행사별 **`event.json`** 설정만으로 배포하는 **인생네컷 포토부스 키오스크** (촬영 · 프레임 · QR · Admin)
+행사별 **`event.json`**·Figma overlay만 바꿔 배포하는 **포토부스 키오스크** (카드/필름 · 4컷 · QR · Admin)
 
 🌐 [Live](https://event-photobooth-kwanho.vercel.app) · 📂 [Repo](https://github.com/kim-kwanho/event-photobooth)
 
