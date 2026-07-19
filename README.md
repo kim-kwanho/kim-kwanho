@@ -21,8 +21,11 @@
 
 ## 👋 About
 
-> 웹 서비스와 **OOP 도메인 모델링**을 중심으로 프로젝트를 만들고 있습니다.  
-> Next.js · TypeScript로 실서비스를 배포하고, **C++ 협업 필터링**과 **ROS 2 · Nav2 · YOLO** 기반 AMR 자율주행도 함께 다룹니다.
+> **OOP 도메인 모델링**을 축으로, 도메인 설계부터 배포·실행까지 이어지는 프로젝트를 만듭니다.
+>
+> - **Web** — Next.js · TypeScript 실서비스
+> - **Algorithms** — C++ OOP · 협업 필터링
+> - **Robotics** — ROS 2 · Nav2 · YOLO AMR 자율주행
 
 <br/>
 
