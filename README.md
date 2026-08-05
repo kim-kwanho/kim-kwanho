@@ -77,16 +77,16 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
 <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
 
-허브(Hub) **예배·사역** 공식 웹 애플리케이션
+허브(Hub) **예배·사역** 공식 웹 애플리케이션 — **fork**
 
-🌐 [Live](https://hub-web-three.vercel.app) · 📂 [Repo](https://github.com/kim-kwanho/hub_web)
+🌐 [Live](https://hub-web-three.vercel.app) · 📂 [Repo](https://github.com/kim-kwanho/hub_web) · 🔗 [Upstream](https://github.com/tech-hubworship/hub_web)
 
 </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
 
-### 🚌 [HUBUP_BUS](https://github.com/kim-kwanho/HUBUP_BUS)
+### 🚌 [hubup-quest](https://github.com/kim-kwanho/hubup-quest)
 
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
@@ -94,7 +94,7 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 
 허브업 **Q&A·버스 일정** 요청 프론트엔드
 
-🌐 [Live](https://hubup-quest.vercel.app) · 📂 [Repo](https://github.com/kim-kwanho/HUBUP_BUS)
+🌐 [Live](https://hubup-quest.vercel.app) · 📂 [Repo](https://github.com/kim-kwanho/hubup-quest)
 
 </td>
     <td width="50%" valign="top">
@@ -121,7 +121,7 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
   <tr>
     <td width="50%" valign="top">
 
-### 🎬 [movie--recommender](https://github.com/kim-kwanho/movie--recommender)
+### 🎬 [movie-recommender](https://github.com/kim-kwanho/movie-recommender)
 
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
 <img src="https://img.shields.io/badge/STL-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
@@ -129,7 +129,7 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 
 유사 사용자 기반 **협업 필터링(KNN)** 영화 추천 CLI — OOP 상속 · CSV 영속성 · 통계/Export
 
-📂 [Repo](https://github.com/kim-kwanho/movie--recommender)
+📂 [Repo](https://github.com/kim-kwanho/movie-recommender)
 
 </td>
     <td width="50%" valign="top"></td>
@@ -144,13 +144,13 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
   <tr>
     <td width="50%" valign="top">
 
-### 🤖 [AMR_firstTeam1](https://github.com/kim-kwanho/AMR_firstTeam1) — Toy Guide
+### 🤖 [AMR_firstTeam1](https://github.com/kim-kwanho/AMR_firstTeam1) — Toy Guide (fork)
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 
-시각장애인 안내 **보조 AMR** — Nav2 자율주행 · YOLOv8 비전 · LLM 에이전트 · 웹 대시보드
+시각장애인 안내 **보조 AMR** — Nav2 · YOLOv8 · LLM · 대시보드 (팀 기여: sim 동기화·주행 안정화·문서)
 
 📂 [Repo](https://github.com/kim-kwanho/AMR_firstTeam1) · 🔗 [Upstream](https://github.com/35194nadawon/AMR_firstTeam1)
 
