@@ -94,7 +94,7 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 
 허브업 **Q&A·버스 일정** 요청 프론트엔드
 
-🌐 [Live](https://hubup-quest.vercel.app) · 📂 [Repo](https://github.com/kim-kwanho/hubup-quest)
+📂 [Repo](https://github.com/kim-kwanho/hubup-quest)
 
 </td>
     <td width="50%" valign="top">
