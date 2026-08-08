@@ -112,13 +112,19 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
 
-### Algorithms / C++
+### 💰 [outreach-fee-manager](https://github.com/kim-kwanho/outreach-fee-manager)
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+
+교회 아웃리치 **회비·예산·지출** 대시보드
+
+🌐 [Live](https://outreach-fee-manager.vercel.app) · 📂 [Repo](https://github.com/kim-kwanho/outreach-fee-manager)
 
 </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
 
 ### 🎬 [movie-recommender](https://github.com/kim-kwanho/movie-recommender)
@@ -132,7 +138,6 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 📂 [Repo](https://github.com/kim-kwanho/movie-recommender)
 
 </td>
-    <td width="50%" valign="top"></td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
