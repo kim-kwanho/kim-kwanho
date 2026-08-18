@@ -127,6 +127,28 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 </td>
     <td width="50%" valign="top">
 
+### 📗 [mentor-desk](https://github.com/kim-kwanho/mentor-desk)
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+
+일주 장학생 멘토용 **세션 준비·일지·30시간 트래커** (별칭만 기록)
+
+📂 [Repo](https://github.com/kim-kwanho/mentor-desk)
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+
+### Algorithms / C++
+
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
 ### 🎬 [movie-recommender](https://github.com/kim-kwanho/movie-recommender)
 
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
@@ -138,6 +160,8 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 📂 [Repo](https://github.com/kim-kwanho/movie-recommender)
 
 </td>
+    <td width="50%" valign="top">
+    </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
