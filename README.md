@@ -135,7 +135,7 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 
 일주 장학생 멘토용 **세션 준비·일지·30시간 트래커** (별칭만 기록)
 
-📂 [Repo](https://github.com/kim-kwanho/mentor-desk)
+🌐 [Live](https://mentor-desk.vercel.app) · 📂 [Repo](https://github.com/kim-kwanho/mentor-desk)
 
 </td>
   </tr>
