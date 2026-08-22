@@ -1,0 +1,27 @@
+{
+  "name": "크리스마스 인생네컷",
+  "short_name": "인생네컷",
+  "description": "크리스마스 인생네컷을 만들어보세요!",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#667eea",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' fill='%23667eea'/><text x='96' y='140' font-size='120' text-anchor='middle'>🎄</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' fill='%23667eea'/><text x='256' y='380' font-size='320' text-anchor='middle'>🎄</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["photo", "entertainment"]
+}
+

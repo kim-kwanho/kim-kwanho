@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    
+    <!-- PWA 설정 -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="크리스마스 인생네컷">
+    <meta name="theme-color" content="#667eea">
+    <meta name="description" content="크리스마스 인생네컷을 만들어보세요!">
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎄</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎄</text></svg>">
+    <link rel="manifest" href="manifest.json">
+    
+    <title>크리스마스 평안네컷</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 사이드 메뉴 (저장된 사진 갤러리) -->
+    <div id="sideMenu" class="side-menu">
+        <div class="side-menu-header">
+            <h2>저장된 인생네컷</h2>
+            <button id="closeMenuBtn" class="close-btn">✕</button>
+        </div>
+        <div id="gallery" class="gallery">
+            <p class="empty-message">저장된 사진이 없습니다.</p>
+        </div>
+    </div>
+
+    <!-- 메인 컨테이너 -->
+    <div class="main-container">
+        <!-- 헤더 -->
+        <header class="header">
+            <button id="menuBtn" class="menu-btn">☰</button>
+            <h1>크리스마스 평안네컷</h1>
+        </header>
+
+        <!-- 프레임 선택 화면 -->
+        <div id="frameSelectScreen" class="screen active">
+            <div class="frame-select-container">
+                <h2>프레임을 선택하세요</h2>
+                <div id="frameList" class="frame-list">
+                    <!-- 프레임들이 동적으로 추가됨 -->
+                </div>
+            </div>
+        </div>
+
+        <!-- 사진 선택 화면 -->
+        <div id="photoSelectScreen" class="screen">
+            <div class="photo-select-container">
+                <h2 id="photoSelectTitle">프레임에 맞춰 사진을 선택하세요</h2>
+                <div class="frame-preview-background">
+                    <div id="photoSlots" class="photo-slots-container">
+                    <div class="photo-slot" data-index="0">
+                        <input type="file" id="photoInput0" accept="image/*" style="display: none;">
+                        <label for="photoInput0" class="photo-slot-label">
+                            <div class="slot-placeholder">
+                                <span class="slot-number">1</span>
+                                <span class="slot-text">사진 선택</span>
+                            </div>
+                            <canvas class="slot-canvas" style="display: none;"></canvas>
+                        </label>
+                        <button class="slot-remove" style="display: none;">✕</button>
+                    </div>
+                    <div class="photo-slot" data-index="1">
+                        <input type="file" id="photoInput1" accept="image/*" style="display: none;">
+                        <label for="photoInput1" class="photo-slot-label">
+                            <div class="slot-placeholder">
+                                <span class="slot-number">2</span>
+                                <span class="slot-text">사진 선택</span>
+                            </div>
+                            <canvas class="slot-canvas" style="display: none;"></canvas>
+                        </label>
+                        <button class="slot-remove" style="display: none;">✕</button>
+                    </div>
+                    <div class="photo-slot" data-index="2">
+                        <input type="file" id="photoInput2" accept="image/*" style="display: none;">
+                        <label for="photoInput2" class="photo-slot-label">
+                            <div class="slot-placeholder">
+                                <span class="slot-number">3</span>
+                                <span class="slot-text">사진 선택</span>
+                            </div>
+                            <canvas class="slot-canvas" style="display: none;"></canvas>
+                        </label>
+                        <button class="slot-remove" style="display: none;">✕</button>
+                    </div>
+                    <div class="photo-slot" data-index="3">
+                        <input type="file" id="photoInput3" accept="image/*" style="display: none;">
+                        <label for="photoInput3" class="photo-slot-label">
+                            <div class="slot-placeholder">
+                                <span class="slot-number">4</span>
+                                <span class="slot-text">사진 선택</span>
+                            </div>
+                            <canvas class="slot-canvas" style="display: none;"></canvas>
+                        </label>
+                        <button class="slot-remove" style="display: none;">✕</button>
+                    </div>
+                    </div>
+                    <canvas id="frameOverlayCanvas" class="frame-overlay"></canvas>
+                </div>
+                <div class="photo-select-controls">
+                    <button id="backToFrameBtn" class="btn btn-secondary">프레임 다시 선택</button>
+                    <button id="composeBtn" class="btn btn-primary" disabled>인생네컷 만들기</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 최종 결과 화면 -->
+        <div id="resultScreen" class="screen">
+            <div class="result-container">
+                <h2>완성된 인생네컷</h2>
+                <div id="resultImage" class="result-image">
+                    <canvas id="resultCanvas"></canvas>
+                </div>
+                <div class="result-controls">
+                    <button id="saveBtn" class="btn btn-primary">💾 저장하기</button>
+                    <button id="downloadBtn" class="btn btn-secondary">📥 다운로드</button>
+                    <button id="newPhotoBtn" class="btn btn-secondary">새로 만들기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 저장 완료 팝업 -->
+    <div id="savePopup" class="popup" style="display: none;">
+        <div class="popup-content">
+            <p>인생네컷이 저장되었습니다! 📸</p>
+            <button id="closePopupBtn" class="btn btn-primary">확인</button>
+        </div>
+    </div>
+
+    <!-- 이미지 보기 팝업 -->
+    <div id="imageViewPopup" class="popup" style="display: none;">
+        <div class="popup-content image-view-content">
+            <button id="closeImageViewBtn" class="close-image-btn">✕</button>
+            <img id="viewImage" src="" alt="인생네컷">
+            <div class="image-view-controls">
+                <button id="downloadImageViewBtn" class="btn btn-primary">📥 다운로드</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 사진 편집 팝업 -->
+    <div id="photoEditPopup" class="popup" style="display: none;">
+        <div class="popup-content photo-edit-content">
+            <div class="photo-edit-header">
+                <h3>사진 조정</h3>
+                <button id="closePhotoEditBtn" class="close-image-btn">✕</button>
+            </div>
+            <div class="photo-edit-canvas-container">
+                <canvas id="photoEditCanvas"></canvas>
+            </div>
+            <div class="photo-edit-controls">
+                <div class="control-group">
+                    <label>확대/축소</label>
+                    <input type="range" id="scaleSlider" min="0.5" max="3" step="0.1" value="1">
+                    <span id="scaleValue">100%</span>
+                </div>
+                <div class="control-buttons">
+                    <button id="resetPhotoEditBtn" class="btn btn-secondary">초기화</button>
+                    <button id="savePhotoEditBtn" class="btn btn-primary">적용</button>
+                </div>
+            </div>
+            <p class="photo-edit-hint">💡 사진을 드래그하여 이동할 수 있습니다</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
