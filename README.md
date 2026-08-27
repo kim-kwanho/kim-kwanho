@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&width=620&lines=%EC%88%AD%EC%8B%A4%EB%8C%80%ED%95%99%EA%B5%90+%C2%B7+%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98+%C2%B7+Next.js;TypeScript+%EC%9B%B9+%EC%84%9C%EB%B9%84%EC%8A%A4+%EA%B0%9C%EB%B0%9C;ROS+2+%C2%B7+Nav2+%C2%B7+AMR+%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89;C%2B%2B+OOP+%C2%B7+%ED%98%91%EC%97%85+%ED%95%84%ED%84%B0%EB%A7%81+%EC%B6%94%EC%B2%9C" alt="Typing intro"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&width=620&lines=%EC%88%AD%EC%8B%A4%EB%8C%80%ED%95%99%EA%B5%90+%C2%B7+%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98+%C2%B7+Next.js;TypeScript+%EC%9B%B9+%EC%84%9C%EB%B9%84%EC%8A%A4+%EA%B0%9C%EB%B0%9C;RAG+%C2%B7+pgvector+%C2%B7+FastAPI;ROS+2+%C2%B7+Nav2+%C2%B7+AMR+%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89;C%2B%2B+OOP+%C2%B7+%ED%98%91%EC%97%85+%ED%95%84%ED%84%B0%EB%A7%81+%EC%B6%94%EC%B2%9C" alt="Typing intro"/>
 
 <br/>
 
@@ -23,6 +23,7 @@
 
 > **OOP 도메인 모델링**을 축으로, 도메인 설계부터 배포·실행까지 이어지는 프로젝트를 만듭니다.
 >
+> - **AI / RAG** — FastAPI · pgvector 검색 게이트 · 근거 없으면 답하지 않는 파이프라인
 > - **Web** — Next.js · TypeScript 실서비스
 > - **Algorithms** — C++ OOP · 협업 필터링
 > - **Robotics** — ROS 2 · Nav2 · YOLO AMR 자율주행
@@ -32,10 +33,13 @@
 ## 🛠 Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,py,c,cpp,js,html,css,arduino,docker,git,vscode,vercel,supabase&perline=7&theme=dark" alt="Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,py,fastapi,postgres,supabase,c,cpp,js,html,css,arduino,docker,git,vscode,vercel&perline=7&theme=dark" alt="Tech Stack"/>
 </div>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector"/>
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
   <img src="https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS 2"/>
   <img src="https://img.shields.io/badge/Nav2-00A0DF?style=flat-square" alt="Nav2"/>
   <img src="https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logo=yolo&logoColor=black" alt="YOLOv8"/>
@@ -48,6 +52,37 @@
 ## 🚀 Projects
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+
+### AI / RAG
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+
+### 🐦 [AskBuddy](https://github.com/2026-Unithon/AskBuddy) — 2026 유니톤 해커톤
+
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white"/>
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
+
+카페 **업무 인수인계**를 대신하는 AI. 점주가 음성·영상·카톡·문서를 올리면 지식카드로 정리되고, 신입은 로드맵과 채팅으로 배운다.
+
+**근거가 없으면 답하지 않는다** — 검색 게이트가 `miss`면 LLM을 아예 호출하지 않고 점주에게 넘긴다. 점주의 30초 답변이 그대로 매장의 영구 지식이 되는 순환이 제품의 핵심.
+
+> 담당: **DB 스키마 24테이블 + pgvector** · 인증·초대코드 · **검색 게이트 `/reg/retrieve`** · 미답변 순환 백엔드
+> 벡터 유사도만으로는 "주차 자리 어디예요?"와 "컵은 어디 있어요?"가 안 갈려서, 질문의 앵커 낱말이 카드 본문에 실제로 등장하는지 보는 그라운딩 검사를 얹어 오답을 걷어냈다.
+
+🌐 [Live](https://ask-buddy-iota.vercel.app) · 📂 [Repo](https://github.com/2026-Unithon/AskBuddy)
+
+</td>
+  </tr>
   <tr>
     <td colspan="2" valign="top">
 
