@@ -106,15 +106,15 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 </td>
     <td width="50%" valign="top">
 
-### ⛪ [hub_web](https://github.com/kim-kwanho/hub_web)
+### ⛪ [hub_web](https://github.com/tech-hubworship/hub_web)
 
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
 <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
 
-허브(Hub) **예배·사역** 공식 웹 애플리케이션 — **fork**
+허브(Hub) **예배·사역** 공식 웹 애플리케이션
 
-🌐 [Live](https://hub-web-three.vercel.app) · 📂 [Repo](https://github.com/kim-kwanho/hub_web) · 🔗 [Upstream](https://github.com/tech-hubworship/hub_web)
+🌐 [Live](https://hub-web-three.vercel.app) · 📂 [Repo](https://github.com/tech-hubworship/hub_web)
 
 </td>
   </tr>
