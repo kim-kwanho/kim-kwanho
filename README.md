@@ -26,7 +26,7 @@
 > - **AI / RAG** — FastAPI · pgvector 검색 게이트 · 근거 없으면 답하지 않는 파이프라인
 > - **Web** — Next.js · TypeScript 실서비스
 > - **Algorithms** — C++ OOP · 협업 필터링
-> - **Robotics** — ROS 2 · Nav2 · YOLO AMR 자율주행
+> - **Robotics** — ROS 2 · Nav2 · YOLO AMR, 로컬 LLM 상위 주행 판단
 
 <br/>
 
@@ -233,6 +233,23 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 📂 [Repo](https://github.com/kim-kwanho/AMR_firstTeam2)
 
 </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### 🚗 driving-agent
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/EXAONE%204.0-8B5CF6?style=flat-square"/>
+<img src="https://img.shields.io/badge/%F0%9F%94%92%20Private-6B7280?style=flat-square"/>
+
+로컬 EXAONE과 카카오 길찾기로 **상위 주행 명령**을 고르는 연구·교육용 시뮬레이터. 실차는 제어하지 않습니다.
+
+<sub>논문 작성 전에는 비공개로 둡니다. 코드 열람이 필요하시면 말씀해 주세요.</sub>
+
+</td>
+    <td width="50%" valign="top">
+    </td>
   </tr>
 </table>
 
