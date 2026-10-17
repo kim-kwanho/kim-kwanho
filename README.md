@@ -147,7 +147,7 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
 
 ### 💰 outreach-fee-manager
 
@@ -159,20 +159,6 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 교회 아웃리치 **회비·예산·지출** 대시보드
 
 <sub>실제 회비 내역이 담겨 비공개로 운영합니다. 코드 열람이 필요하시면 말씀해 주세요.</sub>
-
-</td>
-    <td width="50%" valign="top">
-
-### 📗 mentor-desk
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/%F0%9F%94%92%20Private-6B7280?style=flat-square"/>
-
-일주 장학생 멘토용 **세션 준비·일지·30시간 트래커** (별칭만 기록)
-
-<sub>멘티 기록을 다루는 서비스라 비공개로 운영합니다. 코드 열람이 필요하시면 말씀해 주세요.</sub>
 
 </td>
   </tr>
