@@ -79,7 +79,7 @@
 > 담당: **DB 스키마 24테이블 + pgvector** · 인증·초대코드 · **검색 게이트 `/reg/retrieve`** · 미답변 순환 백엔드
 > 벡터 유사도만으로는 "주차 자리 어디예요?"와 "컵은 어디 있어요?"가 안 갈려서, 질문의 앵커 낱말이 카드 본문에 실제로 등장하는지 보는 그라운딩 검사를 얹어 오답을 걷어냈다.
 
-🌐 [Live](https://ask-buddy-iota.vercel.app) · 📂 [Repo](https://github.com/2026-Unithon/AskBuddy)
+🌐 [Live](https://askbuddy.kr) · 📂 [Repo](https://github.com/2026-Unithon/AskBuddy)
 
 </td>
   </tr>
