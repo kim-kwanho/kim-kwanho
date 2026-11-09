@@ -33,20 +33,14 @@
 ## 🛠 Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,py,fastapi,postgres,supabase,c,cpp,js,html,css,arduino,docker,git,vscode,vercel&perline=7&theme=dark" alt="Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,py,fastapi,postgres,supabase,cpp,docker,git&perline=5&theme=dark" alt="Tech Stack"/>
 </div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector"/>
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
-  <img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers"/>
-  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"/>
   <img src="https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS 2"/>
   <img src="https://img.shields.io/badge/Nav2-00A0DF?style=flat-square" alt="Nav2"/>
-  <img src="https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logo=yolo&logoColor=black" alt="YOLOv8"/>
-  <img src="https://img.shields.io/badge/Gazebo-000000?style=flat-square" alt="Gazebo"/>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/>
 </p>
 
 <br/>
