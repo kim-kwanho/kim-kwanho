@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&width=620&lines=%EC%88%AD%EC%8B%A4%EB%8C%80%ED%95%99%EA%B5%90+%C2%B7+%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98+%C2%B7+Next.js;TypeScript+%EC%9B%B9+%EC%84%9C%EB%B9%84%EC%8A%A4+%EA%B0%9C%EB%B0%9C;RAG+%C2%B7+pgvector+%C2%B7+FastAPI;ROS+2+%C2%B7+Nav2+%C2%B7+AMR+%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89;C%2B%2B+OOP+%C2%B7+%ED%98%91%EC%97%85+%ED%95%84%ED%84%B0%EB%A7%81+%EC%B6%94%EC%B2%9C" alt="Typing intro"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&width=640&lines=%EC%88%AD%EC%8B%A4%EB%8C%80%ED%95%99%EA%B5%90+%C2%B7+%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98+%C2%B7+Next.js;TypeScript+%EC%9B%B9+%EC%84%9C%EB%B9%84%EC%8A%A4+%EA%B0%9C%EB%B0%9C;RAG+%C2%B7+pgvector+%C2%B7+FastAPI;Dijkstra+%C2%B7+k-d+%ED%8A%B8%EB%A6%AC+%C2%B7+%EC%B5%9C%EB%8B%A8+%EA%B2%BD%EB%A1%9C;ROS+2+%C2%B7+Nav2+%C2%B7+AMR+%EC%9E%90%EC%9C%A8%EC%A3%BC%ED%96%89;C%2B%2B+OOP+%C2%B7+%ED%98%91%EC%97%85+%ED%95%84%ED%84%B0%EB%A7%81+%EC%B6%94%EC%B2%9C" alt="Typing intro"/>
 
 <br/>
 
@@ -24,8 +24,8 @@
 > **OOP 도메인 모델링**을 축으로, 도메인 설계부터 배포·실행까지 이어지는 프로젝트를 만듭니다.
 >
 > - **AI / RAG** — FastAPI · pgvector 검색 게이트 · 근거 없으면 답하지 않는 파이프라인
-> - **Web** — Next.js · TypeScript 실서비스
-> - **Algorithms** — C++ OOP · 협업 필터링
+> - **Web** — Next.js · TypeScript 실서비스 · Vite 데모 · Cloudflare Workers 배포
+> - **Algorithms** — Dijkstra · k-d 트리 · C++ OOP 협업 필터링
 > - **Robotics** — ROS 2 · Nav2 · YOLO AMR, 로컬 LLM 상위 주행 판단
 
 <br/>
@@ -40,6 +40,8 @@
   <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector"/>
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini"/>
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
+  <img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers"/>
+  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"/>
   <img src="https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS 2"/>
   <img src="https://img.shields.io/badge/Nav2-00A0DF?style=flat-square" alt="Nav2"/>
   <img src="https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logo=yolo&logoColor=black" alt="YOLOv8"/>
@@ -165,7 +167,28 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
   <tr>
     <td colspan="2" valign="top">
 
-### Algorithms / C++
+### Algorithms
+
+</td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+
+### 🌌 [exoplanet-hop](https://github.com/kim-kwanho/exoplanet-hop)
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white"/>
+<img src="https://img.shields.io/badge/Dijkstra-6366F1?style=flat-square"/>
+<img src="https://img.shields.io/badge/k--d%20tree-6366F1?style=flat-square"/>
+
+한 번에 갈 수 있는 거리가 막혀 있을 때, **지구에서 목적지 별까지 총 이동 시간이 가장 짧은 경로**를 찾는다.
+
+NASA 외계행성 호스트 좌표로 그래프를 만들고, **Dijkstra**가 누적 시간을 확정하면 **k-d 트리**가 반경 X 안의 다음 후보를 고른다. 카탈로그 분석(`N = 4,819`)과 3D 웹 데모를 같이 둔다.
+
+🌐 [Live Demo](https://exoplanet-hop-web.kim-kwanho.workers.dev) · 📂 [Repo](https://github.com/kim-kwanho/exoplanet-hop)
 
 </td>
   </tr>
