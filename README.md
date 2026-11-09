@@ -172,7 +172,7 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
 
 ### 🌌 [exoplanet-hop](https://github.com/kim-kwanho/exoplanet-hop)
 
@@ -186,13 +186,11 @@ Python OOP 도메인을 TypeScript/Next.js로 포팅한 **스마트 팩토리** 
 
 한 번에 갈 수 있는 거리가 막혀 있을 때, **지구에서 목적지 별까지 총 이동 시간이 가장 짧은 경로**를 찾는다.
 
-NASA 외계행성 호스트 좌표로 그래프를 만들고, **Dijkstra**가 누적 시간을 확정하면 **k-d 트리**가 반경 X 안의 다음 후보를 고른다. 카탈로그 분석(`N = 4,819`)과 3D 웹 데모를 같이 둔다.
+NASA 호스트 좌표로 그래프를 만들고, **Dijkstra**가 누적 시간을 확정하면 **k-d 트리**가 반경 X 안의 후보를 고른다. 카탈로그 분석과 3D 웹 데모를 같이 둔다.
 
 🌐 [Live Demo](https://exoplanet-hop-web.kim-kwanho.workers.dev) · 📂 [Repo](https://github.com/kim-kwanho/exoplanet-hop)
 
 </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
 
 ### 🎬 [movie-recommender](https://github.com/kim-kwanho/movie-recommender)
@@ -206,8 +204,6 @@ NASA 외계행성 호스트 좌표로 그래프를 만들고, **Dijkstra**가 �
 📂 [Repo](https://github.com/kim-kwanho/movie-recommender)
 
 </td>
-    <td width="50%" valign="top">
-    </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
